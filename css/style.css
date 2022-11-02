@@ -31,8 +31,11 @@
     font-size: 3rem;
 }
 
-.container-header button {
+.difficolta {
     align-self: center;
+}
+
+.difficolta button {
     padding: 5px 20px;
 }
 
@@ -54,10 +57,30 @@
     flex-wrap: wrap;
 }
 
-.cell {
+.cell100 {
     border: 1px solid black;
     width: calc(100% / 10);
     height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cell81 {
+    border: 1px solid black;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cell49 {
+    border: 1px solid black;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
     display: flex;
     justify-content: center;
     align-items: center;
